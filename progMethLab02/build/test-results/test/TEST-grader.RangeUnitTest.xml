@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="grader.RangeUnitTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-01-15T18:50:19.341Z" hostname="ADMIN" time="0.057">
+  <properties/>
+  <testcase name="testAttackWhite()" classname="grader.RangeUnitTest" time="0.007"/>
+  <testcase name="testMove()" classname="grader.RangeUnitTest" time="0.003"/>
+  <testcase name="testAttackRed()" classname="grader.RangeUnitTest" time="0.005"/>
+  <testcase name="testParentChild()" classname="grader.RangeUnitTest" time="0.003"/>
+  <testcase name="testAttackFlying()" classname="grader.RangeUnitTest" time="0.006"/>
+  <testcase name="testMoveIllegal()" classname="grader.RangeUnitTest" time="0.004"/>
+  <testcase name="testConstructor()" classname="grader.RangeUnitTest" time="0.002"/>
+  <system-out><![CDATA[hydra1 attacks hydra2
+hydra1 attacks hydra4
+hydra2 attacks hydra1
+hydra2 attacks hydra4
+hydra1 attacks mul1
+hydra1 attacks hydra2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

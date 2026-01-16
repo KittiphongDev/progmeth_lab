@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="grader.FlyingUnitTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-01-15T18:50:18.951Z" hostname="ADMIN" time="0.212">
+  <properties/>
+  <testcase name="testMove()" classname="grader.FlyingUnitTest" time="0.102"/>
+  <testcase name="testAttackedByBaseUnit()" classname="grader.FlyingUnitTest" time="0.018"/>
+  <testcase name="testAttackedByRangeUnit()" classname="grader.FlyingUnitTest" time="0.005"/>
+  <testcase name="testParentChild()" classname="grader.FlyingUnitTest" time="0.007"/>
+  <testcase name="testAttackFlying()" classname="grader.FlyingUnitTest" time="0.005"/>
+  <testcase name="testAttack()" classname="grader.FlyingUnitTest" time="0.005"/>
+  <testcase name="testMoveIllegal()" classname="grader.FlyingUnitTest" time="0.008"/>
+  <testcase name="testAttackedByMeleeUnit()" classname="grader.FlyingUnitTest" time="0.005"/>
+  <testcase name="testConstructor()" classname="grader.FlyingUnitTest" time="0.004"/>
+  <system-out><![CDATA[lv1 attacks lv2
+hy1 attacks mul2
+hy1 attacks hy2
+mul1 attacks lv1
+mul1 attacks lv1
+mul1 attacks lv2
+ul1 attacks ul2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

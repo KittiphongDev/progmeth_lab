@@ -1,0 +1,59 @@
+@startuml
+class logic.CardUtil {
++ {static} boolean isExistsInList(UnitCard,ArrayList<UnitCard>)
++ {static} boolean isExistsInList(UnitDeck,ArrayList<UnitDeck>)
++ {static} boolean cardExistsInDeckList(ArrayList<UnitDeck>,UnitCard)
++ {static} ArrayList<UnitCard> getCardsFromFile(String)
++ {static} void printCardList(ArrayList<UnitCard>,boolean)
++ {static} void printDeck(UnitDeck)
++ {static} void printDeckList(ArrayList<UnitDeck>)
+}
+
+class logic.UnitDeck {
+- ArrayList<CardCounter> cardInDeck
+- String deckName
++ ArrayList<CardCounter> getCardsInDeck()
++ void setCardInDeck(ArrayList<CardCounter>)
++ String getDeckName()
++ void setDeckName(String)
++ void addCard(UnitCard,int)
++ void removeCard(UnitCard,int)
++ int cardCount()
++ boolean existsInDeck(UnitCard)
++ boolean equals(UnitDeck)
+}
+
+
+class logic.CardCounter {
+- UnitCard card
+- int count
++ UnitCard getCard()
++ void setCard(UnitCard)
++ int getCount()
++ void setCount(int)
++ String toString()
+}
+
+
+class logic.UnitCard {
+- String name
+- int bloodCost
+- int power
+- int health
+- String flavorText
++ void setName(String)
++ void setBloodCost(int)
++ void setPower(int)
++ void setHealth(int)
++ void setFlavorText(String)
++ String getName()
++ int getBloodCost()
++ int getPower()
++ int getHealth()
++ String getFlavorText()
++ boolean equals(UnitCard)
++ String toString()
+}
+
+
+@enduml

@@ -1,0 +1,18 @@
+lv1 attacks lv2
+hy1 attacks mul2
+hy1 attacks hy2
+mul1 attacks lv1
+mul1 attacks lv1
+mul1 attacks lv2
+	ul1 attacks ul2
+lv1 attacks lv2
+lv1 attacks lv2
+lv1 attacks lv4
+ul1 attacks ul2
+ul1 attacks ul4
+hydra1 attacks hydra2
+hydra1 attacks hydra4
+hydra2 attacks hydra1
+hydra2 attacks hydra4
+!hydra1 attacks mul1
+!hydra1 attacks hydra2

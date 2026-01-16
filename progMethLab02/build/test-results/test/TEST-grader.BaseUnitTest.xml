@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="grader.BaseUnitTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-01-15T18:50:19.184Z" hostname="ADMIN" time="0.054">
+  <properties/>
+  <testcase name="testAttackFlying()" classname="grader.BaseUnitTest" time="0.008"/>
+  <testcase name="testAttack()" classname="grader.BaseUnitTest" time="0.006"/>
+  <testcase name="testMoveIllegal()" classname="grader.BaseUnitTest" time="0.004"/>
+  <testcase name="testSetter()" classname="grader.BaseUnitTest" time="0.005"/>
+  <testcase name="testMoveLegal()" classname="grader.BaseUnitTest" time="0.004"/>
+  <testcase name="testConstructor()" classname="grader.BaseUnitTest" time="0.004"/>
+  <system-out><![CDATA[lv1 attacks lv2
+lv1 attacks lv2
+lv1 attacks lv4
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
